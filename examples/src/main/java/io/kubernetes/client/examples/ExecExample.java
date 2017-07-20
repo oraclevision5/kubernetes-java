@@ -1,3 +1,15 @@
+/*
+Copyright 2017 The Kubernetes Authors.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
 package io.kubernetes.client.examples;
 
 import io.kubernetes.client.ApiClient;
@@ -19,10 +31,8 @@ import java.io.OutputStream;
 /**
  * A simple example of how to use the Java API
  * 
- * Requires kubectl proxy running
- * 
  * Easiest way to run this:
- *   mvn exec:java -Dex.mainClass="io.kubernetes.client.examples.Example"
+ *   mvn exec:java -Dexec.mainClass="io.kubernetes.client.examples.Example"
  * 
  * From inside $REPO_DIR/kubernetes
  */
@@ -32,19 +42,15 @@ public class ExecExample {
         Configuration.setDefaultApiClient(client);
 
         Exec exec = new Exec();
-        final Process proc = exec.exec("default", "nginx-2371676037-czqx3", new String[] {"sh", "-c", "echo foo"}, true);
+        boolean tty = System.console() != null;
+//        final Process proc = exec.exec("default", "nginx-2371676037-czqx3", new String[] {"sh", "-c", "echo foo"}, true, tty);
+        final Process proc = exec.exec("default", "nginx-2371676037-czqx3", new String[] {"sh"}, true, tty);
+
 
         new Thread(new Runnable() {
             public void run() {
-                BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-                OutputStream output = proc.getOutputStream();
                 try {
-                    while (true) {
-                        String line = in.readLine();
-                        output.write(line.getBytes());
-                        output.write('\n');
-                        output.flush();
-                    }
+                    ByteStreams.copy(System.in, proc.getOutputStream());
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
@@ -62,6 +68,12 @@ public class ExecExample {
         }).start();
 
         proc.waitFor();
+        try {
+            // Wait for buffers to flush.
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
 
         System.exit(0);
     }
