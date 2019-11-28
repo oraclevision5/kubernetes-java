@@ -18559,7 +18559,7 @@
   },
   "info": {
     "title": "Kubernetes",
-    "version": "v1.15.6"
+    "version": "v1.15.7"
   },
   "paths": {
     "/api/": {
