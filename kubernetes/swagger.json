@@ -20138,7 +20138,7 @@
   },
   "info": {
     "title": "Kubernetes",
-    "version": "v1.16.4"
+    "version": "v1.16.5"
   },
   "paths": {
     "/api/": {
@@ -106651,7 +106651,6 @@
             "schema": {
               "$ref": "#/definitions/v1.DeleteOptions"
             },
-            "required": true,
             "name": "body",
             "in": "body"
           },
@@ -107160,7 +107159,6 @@
             "schema": {
               "$ref": "#/definitions/v1.DeleteOptions"
             },
-            "required": true,
             "name": "body",
             "in": "body"
           },
