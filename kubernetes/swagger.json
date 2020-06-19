@@ -33,6 +33,9 @@
           "kind": "SelfSubjectRulesReview",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "extensions.v1beta1.ScaleSpec": {
@@ -94,6 +97,9 @@
           "kind": "VolumeAttachment",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "apps.v1beta1.RollbackConfig": {
@@ -176,6 +182,9 @@
           "kind": "StatefulSet",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.NodeStatus": {
@@ -309,6 +318,9 @@
           "kind": "DaemonSet",
           "version": "v1beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.AggregationRule": {
@@ -397,6 +409,9 @@
           "kind": "PodDisruptionBudget",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.EndpointPort": {
@@ -581,6 +596,9 @@
           "kind": "PodList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1alpha1.PriorityLevelConfigurationList": {
@@ -617,6 +635,9 @@
           "kind": "PriorityLevelConfigurationList",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.SubjectAccessReviewSpec": {
@@ -811,6 +832,9 @@
           "kind": "PriorityClass",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.ValidatingWebhookConfiguration": {
@@ -845,6 +869,9 @@
           "kind": "ValidatingWebhookConfiguration",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.CustomResourceValidation": {
@@ -1089,6 +1116,9 @@
           "kind": "NetworkPolicyList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.APIServiceCondition": {
@@ -1185,6 +1215,9 @@
           "kind": "StorageClass",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.LoadBalancerIngress": {
@@ -1253,6 +1286,9 @@
           "kind": "SecretList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.HorizontalPodAutoscalerSpec": {
@@ -1317,6 +1353,9 @@
           "kind": "RoleBindingList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.ResourceAttributes": {
@@ -1430,6 +1469,9 @@
           "kind": "ReplicationControllerList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v2beta2.HorizontalPodAutoscalerCondition": {
@@ -1566,6 +1608,9 @@
           "kind": "ClusterRole",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.ValidatingWebhook": {
@@ -1658,6 +1703,9 @@
           "kind": "RoleList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.CrossVersionObjectReference": {
@@ -1801,6 +1849,9 @@
           "kind": "ClusterRoleList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.GroupVersionForDiscovery": {
@@ -1892,6 +1943,9 @@
           "kind": "VolumeAttachmentList",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.ClusterRole": {
@@ -1928,6 +1982,9 @@
           "kind": "ClusterRole",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.ComponentStatusList": {
@@ -1963,6 +2020,9 @@
           "kind": "ComponentStatusList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "extensions.v1beta1.AllowedHostPath": {
@@ -2232,6 +2292,9 @@
           "kind": "Scale",
           "version": "v1beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.RoleBindingList": {
@@ -2267,6 +2330,9 @@
           "kind": "RoleBindingList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1alpha1.PodPresetSpec": {
@@ -2507,6 +2573,9 @@
           "kind": "HorizontalPodAutoscalerList",
           "version": "v2beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.StatefulSetUpdateStrategy": {
@@ -2720,6 +2789,9 @@
           "kind": "DeploymentList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v2alpha1.JobTemplateSpec": {
@@ -2832,6 +2904,9 @@
           "kind": "ResourceQuota",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.NodeSpec": {
@@ -2918,6 +2993,9 @@
           "kind": "ValidatingWebhookConfigurationList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.APIServiceList": {
@@ -2951,6 +3029,9 @@
           "kind": "APIServiceList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.APIService": {
@@ -2983,6 +3064,9 @@
           "kind": "APIService",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.StatefulSetSpec": {
@@ -3200,6 +3284,9 @@
           "kind": "HorizontalPodAutoscalerList",
           "version": "v2beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.CSINodeSpec": {
@@ -3253,6 +3340,9 @@
           "kind": "RuntimeClassList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.PodDNSConfigOption": {
@@ -3329,6 +3419,9 @@
           "kind": "ControllerRevision",
           "version": "v1beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.DaemonSetSpec": {
@@ -3434,6 +3527,9 @@
           "kind": "ResourceQuotaList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.RoleRef": {
@@ -3497,6 +3593,9 @@
           "kind": "ConfigMap",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "extensions.v1beta1.PodSecurityPolicy": {
@@ -3526,6 +3625,9 @@
           "kind": "PodSecurityPolicy",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta2.RollingUpdateDeployment": {
@@ -3597,6 +3699,9 @@
           "kind": "PersistentVolumeClaimList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.PersistentVolumeSpec": {
@@ -3814,6 +3919,9 @@
           "kind": "ClusterRoleBinding",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta2.StatefulSetSpec": {
@@ -3897,6 +4005,9 @@
           "kind": "CustomResourceDefinition",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v2beta1.ExternalMetricSource": {
@@ -3957,6 +4068,9 @@
           "kind": "LeaseList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.RoleBinding": {
@@ -3996,6 +4110,9 @@
           "kind": "RoleBinding",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.LocalSubjectAccessReview": {
@@ -4031,6 +4148,9 @@
           "kind": "LocalSubjectAccessReview",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.PersistentVolumeList": {
@@ -4066,6 +4186,9 @@
           "kind": "PersistentVolumeList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.JobSpec": {
@@ -4147,6 +4270,9 @@
           "kind": "CronJobList",
           "version": "v2alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "extensions.v1beta1.Ingress": {
@@ -4180,6 +4306,9 @@
           "kind": "Ingress",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.VolumeAttachmentSpec": {
@@ -4291,6 +4420,9 @@
           "kind": "LeaseList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.StatusDetails": {
@@ -4384,6 +4516,9 @@
           "kind": "PriorityClass",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.ConfigMapKeySelector": {
@@ -4460,6 +4595,9 @@
           "kind": "RuntimeClass",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.PersistentVolumeClaimStatus": {
@@ -4581,6 +4719,9 @@
           "kind": "Deployment",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.ConfigMapProjection": {
@@ -4648,6 +4789,9 @@
           "kind": "PodDisruptionBudgetList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.CephFSPersistentVolumeSource": {
@@ -4716,6 +4860,9 @@
           "kind": "Role",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.VolumeError": {
@@ -4821,6 +4968,9 @@
           "kind": "ReplicaSet",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1alpha1.AuditSink": {
@@ -4849,6 +4999,9 @@
           "kind": "AuditSink",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "networking.v1beta1.IngressBackend": {
@@ -5179,6 +5332,9 @@
           "kind": "PersistentVolumeClaim",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1alpha1.Scheduling": {
@@ -5575,6 +5731,9 @@
           "kind": "NamespaceList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.CSIDriverSpec": {
@@ -5661,6 +5820,9 @@
           "kind": "EndpointsList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.Container": {
@@ -5927,6 +6089,9 @@
           "kind": "StatefulSet",
           "version": "v1beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.ReplicaSetList": {
@@ -5962,6 +6127,9 @@
           "kind": "ReplicaSetList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.LocalObjectReference": {
@@ -6113,6 +6281,9 @@
           "kind": "Ingress",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.CustomResourceDefinitionNames": {
@@ -6234,6 +6405,9 @@
           "kind": "VolumeAttachment",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.CSINode": {
@@ -6266,6 +6440,9 @@
           "kind": "CSINode",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.LimitRangeList": {
@@ -6301,6 +6478,9 @@
           "kind": "LimitRangeList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.CSIVolumeSource": {
@@ -6388,6 +6568,9 @@
           "kind": "ReplicaSetList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.SecurityContext": {
@@ -6587,6 +6770,9 @@
           "kind": "Service",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.EventSeries": {
@@ -6692,6 +6878,9 @@
           "kind": "StatefulSet",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.LabelSelector": {
@@ -7115,6 +7304,9 @@
           "kind": "PodPresetList",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "extensions.v1beta1.SELinuxStrategyOptions": {
@@ -7238,6 +7430,9 @@
           "kind": "CustomResourceDefinition",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.IPBlock": {
@@ -7553,6 +7748,9 @@
           "kind": "APIServiceList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1alpha1.VolumeAttachmentStatus": {
@@ -7640,6 +7838,9 @@
           "kind": "ClusterRoleBindingList",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "apps.v1beta1.ScaleStatus": {
@@ -7765,6 +7966,9 @@
           "kind": "PriorityClassList",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.CustomResourceDefinitionSpec": {
@@ -7869,6 +8073,9 @@
           "kind": "DaemonSet",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.APIServiceCondition": {
@@ -7932,6 +8139,9 @@
           "kind": "CSIDriver",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.SecretEnvSource": {
@@ -8007,6 +8217,9 @@
           "kind": "ValidatingWebhookConfiguration",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1alpha1.ServiceAccountSubject": {
@@ -8195,6 +8408,9 @@
           "kind": "VolumeAttachment",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.PreferredSchedulingTerm": {
@@ -8320,6 +8536,9 @@
           "kind": "EndpointSlice",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.KeyToPath": {
@@ -8436,6 +8655,9 @@
           "kind": "HorizontalPodAutoscaler",
           "version": "v2beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.SelfSubjectRulesReviewSpec": {
@@ -8480,6 +8702,9 @@
           "kind": "SelfSubjectRulesReview",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1alpha1.FlowSchemaStatus": {
@@ -8790,6 +9015,9 @@
           "kind": "StorageClassList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v2beta2.ExternalMetricStatus": {
@@ -8853,6 +9081,9 @@
           "kind": "AuditSinkList",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.PersistentVolumeClaimCondition": {
@@ -8916,6 +9147,9 @@
           "kind": "Lease",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta2.ControllerRevisionList": {
@@ -8951,6 +9185,9 @@
           "kind": "ControllerRevisionList",
           "version": "v1beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "apiextensions.v1.WebhookClientConfig": {
@@ -9017,6 +9254,9 @@
           "kind": "Scale",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.VolumeAttachmentSource": {
@@ -9102,6 +9342,9 @@
           "kind": "Deployment",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "resource.Quantity": {
@@ -9244,6 +9487,9 @@
           "kind": "SelfSubjectAccessReview",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.APIServiceSpec": {
@@ -9370,6 +9616,9 @@
           "kind": "EndpointSliceList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "policy.v1beta1.HostPortRange": {
@@ -9606,6 +9855,9 @@
           "kind": "DaemonSet",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "extensions.v1beta1.RunAsUserStrategyOptions": {
@@ -9659,6 +9911,9 @@
           "kind": "CronJob",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.SecretProjection": {
@@ -9871,6 +10126,9 @@
           "kind": "Event",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.UserInfo": {
@@ -10075,6 +10333,9 @@
           "kind": "Eviction",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.NodeConfigSource": {
@@ -10120,6 +10381,9 @@
           "kind": "LocalSubjectAccessReview",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.PolicyRule": {
@@ -10207,6 +10471,9 @@
           "kind": "PodSecurityPolicy",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v2beta1.ResourceMetricStatus": {
@@ -10377,6 +10644,9 @@
           "kind": "NodeList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.PersistentVolumeClaimVolumeSource": {
@@ -10423,6 +10693,9 @@
           "kind": "Lease",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.NFSVolumeSource": {
@@ -10801,6 +11074,9 @@
           "kind": "Secret",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.RollingUpdateDeployment": {
@@ -10870,6 +11146,9 @@
           "kind": "ReplicationController",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v2beta1.MetricStatus": {
@@ -10950,6 +11229,9 @@
           "kind": "TokenRequest",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.CustomResourceDefinitionList": {
@@ -10984,6 +11266,9 @@
           "kind": "CustomResourceDefinitionList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v2beta2.PodsMetricStatus": {
@@ -11037,6 +11322,9 @@
           "kind": "PriorityClassList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.ReplicaSetSpec": {
@@ -11421,6 +11709,9 @@
           "kind": "Deployment",
           "version": "v1beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.DeleteOptions": {
@@ -11894,6 +12185,9 @@
           "kind": "RoleBindingList",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.TokenReviewStatus": {
@@ -11999,6 +12293,9 @@
           "kind": "ClusterRoleBinding",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.TokenReviewStatus": {
@@ -12164,6 +12461,9 @@
           "kind": "StatefulSetList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.ISCSIVolumeSource": {
@@ -12258,6 +12558,9 @@
           "kind": "VolumeAttachmentList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v2beta1.PodsMetricStatus": {
@@ -12368,6 +12671,9 @@
           "kind": "Scale",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.ControllerRevision": {
@@ -12405,6 +12711,9 @@
           "kind": "ControllerRevision",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.ListMeta": {
@@ -12475,6 +12784,9 @@
           "kind": "HorizontalPodAutoscaler",
           "version": "v2beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.ComponentStatus": {
@@ -12509,6 +12821,9 @@
           "kind": "ComponentStatus",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.Taint": {
@@ -12588,6 +12903,9 @@
           "kind": "EventList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "apiregistration.v1.ServiceReference": {
@@ -12643,6 +12961,9 @@
           "kind": "FlowSchemaList",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1alpha1.PriorityLevelConfiguration": {
@@ -12676,6 +12997,9 @@
           "kind": "PriorityLevelConfiguration",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.ClusterRoleBindingList": {
@@ -12711,6 +13035,9 @@
           "kind": "ClusterRoleBindingList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.PolicyRule": {
@@ -12787,6 +13114,9 @@
           "kind": "CertificateSigningRequest",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.WindowsSecurityContextOptions": {
@@ -12980,6 +13310,9 @@
           "kind": "Pod",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.MutatingWebhookConfigurationList": {
@@ -13015,6 +13348,9 @@
           "kind": "MutatingWebhookConfigurationList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.Job": {
@@ -13048,6 +13384,9 @@
           "kind": "Job",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.Endpoint": {
@@ -13239,6 +13578,9 @@
           "kind": "Event",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.HorizontalPodAutoscaler": {
@@ -13272,6 +13614,9 @@
           "kind": "HorizontalPodAutoscaler",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.StorageClassList": {
@@ -13307,6 +13652,9 @@
           "kind": "StorageClassList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "networking.v1beta1.IngressList": {
@@ -13342,6 +13690,9 @@
           "kind": "IngressList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1alpha1.AggregationRule": {
@@ -13474,6 +13825,9 @@
           "kind": "Role",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "policy.v1beta1.IDRange": {
@@ -13564,6 +13918,9 @@
           "kind": "ClusterRoleBinding",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1alpha1.PolicyRule": {
@@ -13664,6 +14021,9 @@
           "kind": "APIService",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.SubjectAccessReviewSpec": {
@@ -13766,6 +14126,9 @@
           "kind": "Role",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.ServiceList": {
@@ -13801,6 +14164,9 @@
           "kind": "ServiceList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "extensions.v1beta1.AllowedCSIDriver": {
@@ -13874,6 +14240,9 @@
           "kind": "TokenReview",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.RoleList": {
@@ -13909,6 +14278,9 @@
           "kind": "RoleList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.ValidatingWebhookConfigurationList": {
@@ -13944,6 +14316,9 @@
           "kind": "ValidatingWebhookConfigurationList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.LimitRange": {
@@ -13973,6 +14348,9 @@
           "kind": "LimitRange",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.StatefulSetList": {
@@ -14006,6 +14384,9 @@
           "kind": "StatefulSetList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.CSIDriverList": {
@@ -14041,6 +14422,9 @@
           "kind": "CSIDriverList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.ControllerRevision": {
@@ -14078,6 +14462,9 @@
           "kind": "ControllerRevision",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1alpha1.NonResourcePolicyRule": {
@@ -14157,6 +14544,9 @@
           "kind": "ServiceAccountList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1alpha1.GroupSubject": {
@@ -14267,6 +14657,9 @@
           "kind": "CSINodeList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta2.RollingUpdateDaemonSet": {
@@ -14377,6 +14770,9 @@
           "kind": "CronJobList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.EventList": {
@@ -14412,6 +14808,9 @@
           "kind": "EventList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.APIVersions": {
@@ -14484,6 +14883,9 @@
           "kind": "Node",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "policy.v1beta1.PodSecurityPolicyList": {
@@ -14519,6 +14921,9 @@
           "kind": "PodSecurityPolicyList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.TokenReview": {
@@ -14554,6 +14959,9 @@
           "kind": "TokenReview",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.PriorityClass": {
@@ -14599,6 +15007,9 @@
           "kind": "PriorityClass",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.AzureFilePersistentVolumeSource": {
@@ -14740,6 +15151,9 @@
           "kind": "NetworkPolicy",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1alpha1.RuntimeClassSpec": {
@@ -14851,6 +15265,9 @@
           "kind": "Endpoints",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1alpha1.FlowSchema": {
@@ -14884,6 +15301,9 @@
           "kind": "FlowSchema",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.PortworxVolumeSource": {
@@ -14934,6 +15354,9 @@
           "kind": "PodTemplate",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta2.DeploymentStatus": {
@@ -15019,6 +15442,9 @@
           "kind": "JobList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.PodReadinessGate": {
@@ -15103,6 +15529,9 @@
           "kind": "IngressList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.CSINodeDriver": {
@@ -15187,6 +15616,9 @@
           "kind": "PodTemplateList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "extensions.v1beta1.HTTPIngressRuleValue": {
@@ -15258,6 +15690,9 @@
           "kind": "ClusterRoleBindingList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.TokenRequestStatus": {
@@ -15480,6 +15915,9 @@
           "kind": "RuntimeClassList",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.SubjectRulesReviewStatus": {
@@ -15586,6 +16024,9 @@
           "kind": "CertificateSigningRequestList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.SelfSubjectAccessReview": {
@@ -15621,6 +16062,9 @@
           "kind": "SelfSubjectAccessReview",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "extensions.v1beta1.IDRange": {
@@ -15676,6 +16120,9 @@
           "kind": "DaemonSetList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.RuleWithOperations": {
@@ -15823,6 +16270,9 @@
           "kind": "StatefulSetList",
           "version": "v1beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.CustomResourceSubresources": {
@@ -15903,6 +16353,9 @@
           "kind": "HorizontalPodAutoscalerList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.Binding": {
@@ -15935,6 +16388,9 @@
           "kind": "Binding",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.CustomResourceConversion": {
@@ -16111,6 +16567,9 @@
           "kind": "DeploymentList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1alpha1.WebhookThrottleConfig": {
@@ -16313,6 +16772,9 @@
           "kind": "RoleBinding",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "admissionregistration.v1.ServiceReference": {
@@ -16474,6 +16936,9 @@
           "kind": "StorageClass",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.PodIP": {
@@ -16718,6 +17183,9 @@
           "kind": "PersistentVolume",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "apps.v1beta1.DeploymentStatus": {
@@ -16803,6 +17271,9 @@
           "kind": "NetworkPolicyList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1alpha1.ClusterRoleList": {
@@ -16838,6 +17309,9 @@
           "kind": "ClusterRoleList",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.CSINode": {
@@ -16870,6 +17344,9 @@
           "kind": "CSINode",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.ReplicaSet": {
@@ -16903,6 +17380,9 @@
           "kind": "ReplicaSet",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.NonResourceAttributes": {
@@ -16973,6 +17453,9 @@
           "kind": "VolumeAttachmentList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1alpha1.AuditSinkSpec": {
@@ -17071,6 +17554,9 @@
           "kind": "DaemonSetList",
           "version": "v1beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.ControllerRevisionList": {
@@ -17106,6 +17592,9 @@
           "kind": "ControllerRevisionList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.DaemonSetUpdateStrategy": {
@@ -17226,6 +17715,9 @@
           "kind": "RoleList",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.ResourceRule": {
@@ -17360,6 +17852,9 @@
           "kind": "Namespace",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1alpha1.FlowSchemaSpec": {
@@ -17476,6 +17971,9 @@
           "kind": "ClusterRoleList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.RuleWithOperations": {
@@ -17617,6 +18115,9 @@
           "kind": "ConfigMapList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta2.DeploymentList": {
@@ -17652,6 +18153,9 @@
           "kind": "DeploymentList",
           "version": "v1beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.CustomResourceDefinitionVersion": {
@@ -18084,6 +18588,9 @@
           "kind": "PodPreset",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.Patch": {
@@ -18211,6 +18718,9 @@
           "kind": "SubjectAccessReview",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1beta1.CustomResourceDefinitionList": {
@@ -18245,6 +18755,9 @@
           "kind": "CustomResourceDefinitionList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.Toleration": {
@@ -18305,6 +18818,9 @@
           "kind": "Scale",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.EndpointAddress": {
@@ -18413,6 +18929,9 @@
           "kind": "ReplicaSet",
           "version": "v1beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.CSINodeList": {
@@ -18448,6 +18967,9 @@
           "kind": "CSINodeList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "extensions.v1beta1.RollingUpdateDeployment": {
@@ -18497,6 +19019,9 @@
           "kind": "ControllerRevisionList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.Overhead": {
@@ -18706,6 +19231,9 @@
           "kind": "PriorityClassList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.PodSpec": {
@@ -18959,6 +19487,9 @@
           "kind": "ReplicaSetList",
           "version": "v1beta2"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "extensions.v1beta1.SupplementalGroupsStrategyOptions": {
@@ -19162,6 +19693,9 @@
           "kind": "MutatingWebhookConfiguration",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.SELinuxOptions": {
@@ -19378,6 +19912,9 @@
           "kind": "DeploymentList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.DaemonSetList": {
@@ -19413,6 +19950,9 @@
           "kind": "DaemonSetList",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.ResourceAttributes": {
@@ -19483,6 +20023,9 @@
           "kind": "ClusterRole",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.RBDVolumeSource": {
@@ -19642,6 +20185,9 @@
           "kind": "NetworkPolicy",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "apps.v1beta1.Deployment": {
@@ -19675,6 +20221,9 @@
           "kind": "Deployment",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1alpha1.WebhookClientConfig": {
@@ -19939,6 +20488,9 @@
           "kind": "PodSecurityPolicyList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1.DaemonSetSpec": {
@@ -20051,6 +20603,9 @@
           "kind": "RuntimeClass",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.ScopeSelector": {
@@ -20129,6 +20684,9 @@
           "kind": "ServiceAccount",
           "version": "v1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.EventSource": {
@@ -20190,6 +20748,9 @@
           "kind": "CronJob",
           "version": "v2alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1alpha1.RoleBinding": {
@@ -20229,6 +20790,9 @@
           "kind": "RoleBinding",
           "version": "v1alpha1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.DownwardAPIVolumeSource": {
@@ -20282,6 +20846,9 @@
           "kind": "MutatingWebhookConfigurationList",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesListObject"
       ]
     },
     "v1beta1.MutatingWebhookConfiguration": {
@@ -20316,6 +20883,9 @@
           "kind": "MutatingWebhookConfiguration",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "v1.NodeAddress": {
@@ -20705,6 +21275,9 @@
           "kind": "SubjectAccessReview",
           "version": "v1beta1"
         }
+      ],
+      "x-implements": [
+        "io.kubernetes.client.common.KubernetesObject"
       ]
     },
     "extensions.v1beta1.IngressTLS": {
