@@ -82,6 +82,7 @@ public class KubectlCreateTest {
                 .apiClient(apiClient)
                 .resource(
                     new V1ConfigMap()
+                        .apiVersion("v1")
                         .metadata(new V1ObjectMeta().namespace("foo").name("bar"))
                         .data(
                             new HashMap<String, String>() {
