@@ -55424,6 +55424,36 @@ paths:
       tags:
       - version
       x-accepts: application/json
+  /apis/{group}/{version}:
+    get:
+      description: get available resources
+      operationId: getAPIResources
+      parameters:
+      - description: The custom resource's group name
+        in: path
+        name: group
+        required: true
+        schema:
+          type: string
+      - description: The custom resource's version
+        in: path
+        name: version
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/v1.APIResourceList'
+          description: OK
+        "401":
+          content: {}
+          description: Unauthorized
+      tags:
+      - custom_objects
+      x-accepts: application/json
   /apis/{group}/{version}/{plural}:
     delete:
       description: Delete collection of cluster scoped custom objects
