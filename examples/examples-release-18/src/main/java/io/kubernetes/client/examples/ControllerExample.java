@@ -65,7 +65,6 @@ public class ControllerExample {
                   null,
                   params.resourceVersion,
                       null,
-                  null,
                   params.timeoutSeconds,
                   params.watch,
                   null);
