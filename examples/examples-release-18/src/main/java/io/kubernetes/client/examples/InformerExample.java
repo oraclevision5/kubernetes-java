@@ -60,7 +60,6 @@ public class InformerExample {
                   null,
                   params.resourceVersion,
                   null,
-                  null,
                   params.timeoutSeconds,
                   params.watch,
                   null);
